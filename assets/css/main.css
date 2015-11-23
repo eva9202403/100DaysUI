@@ -1,27 +1,52 @@
 #banner {
-	padding: 15% 1% 15% 1%;
+	padding: 10% 1% 10% 1%;
 	background-color: #ffffff;
 	color: rgba(241,106,112, 0.90);
 	background-attachment: fixed;
 	background-image:url(../img/100daysUI-header.png);
-	background-size: 100% 100%;
+	background-size: 100%;
+	background-repeat: no-repeat; 
 	text-align: center;
 	margin-left: -1%;
 	margin-right: -2%;
     margin-top: -1%;
-    font-size: 300%
+    font-size: 250%;
 }
 
 section {
     padding:10px;	 	 
 }
 
-h1 {
+#banner h1 {
    position: relative; 
    top: 10%; 
    width: 100%; 
    text-align: center;
-   font-size: 300%;
-   color:#2c3e50;
+   font-size: 150%;
+   color:rgba(241,106,112, 0.90);
 }
 
+.btn-circle.btn-xl {
+  width: 100px;
+  height: 100px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 50px;
+}
+
+.btn-default {
+	color: rgb(241,106,112);
+    background-color: transparent !important;
+    border-color: rgb(241,106,112);
+    border-width: 5px;
+}
+
+.btn-default:hover {
+	color: #ffffff;
+	border-color: #ffffff;
+}
+
+button {
+	margin: 100px;
+}
